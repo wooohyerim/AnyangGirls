@@ -8,6 +8,7 @@
     "strict": true,
     "esModuleInterop": true,
     "allowJs": true,
+
   },
   "include": ["vite.config.ts"]
 }

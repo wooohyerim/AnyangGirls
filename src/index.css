@@ -18,9 +18,14 @@
   src: url("/src/assets/font/Prompt-Bold.ttf");
 }
 
+@font-face {
+  font-family: "DancingScript";
+  src: url("/src/assets/font/DancingScript-Bold.ttf");
+}
+
 * {
 font-family: "Propmt-Regular";
 box-sizing: border-box;
 margin: 0;
-padding: 0;
+padding: 0 
 }
