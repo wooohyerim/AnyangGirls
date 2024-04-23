@@ -5,7 +5,7 @@ const Header = () => {
   const navigate = useNavigate();
 
   return (
-    <header className=" flex flex-row justify-between  items-center min-w-[480px] h-[100px] px-4 border  border-b-neutral-300 mb-4 lg:px-[80px]  lg:w-full ">
+    <header className=" flex flex-row justify-between  items-center min-w-[480px] h-[100px] px-4 border  border-b-neutral-300 mb-4 lg:px-[120px]  lg:w-full ">
       <div className="flex flex-row items-center justify-center gap-8 lg:min-w-[700px] lg:justify-between ">
         <h1
           onClick={() => navigate("/")}
@@ -14,7 +14,7 @@ const Header = () => {
           Anyang Girls
         </h1>
 
-        <ul className="flex flex-row gap-6 cursor-pointer">
+        <ul className="flex flex-row gap-8 cursor-pointer">
           {Nav.map((list) => {
             return (
               <li
@@ -28,19 +28,19 @@ const Header = () => {
           })}
         </ul>
       </div>
-      <div className="flex flex-row items-center gap-4 cursor-pointer">
+      <div className="flex flex-row items-center gap-6 cursor-pointer">
         <Button
           title={"로그인"}
           onClick={() => {}}
           className={
-            "w-[100px] h-full  px-[8px] py-[12px] border border-gray-300 rounded-[8px] bg-[#88AB8E] font-bold text-[20px] text-center text-white"
+            "w-[100px] h-full  px-[8px] py-[12px] border border-gray-300 rounded-[8px] bg-[#88AB8E] font-bold text-[20px] text-center text-white hover:bg-[#AFC8AD]"
           }
         />
         <Button
           title={"회원가입"}
           onClick={() => {}}
           className={
-            "hidden lg:block w-[100px] h-full  px-[8px] py-[12px] border border-gray-300 rounded-[8px] bg-[#88AB8E] font-bold text-[20px] text-center text-white"
+            "hidden lg:block w-[100px] h-full  px-[8px] py-[12px] border border-gray-300 rounded-[8px] bg-[#88AB8E] font-bold text-[20px] text-center text-white hover:bg-[#AFC8AD]"
           }
         />
       </div>

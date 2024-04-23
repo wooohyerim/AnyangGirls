@@ -8,6 +8,7 @@
     "allowJs": true,
     "moduleDetection": "force",
     "allowSyntheticDefaultImports":true,
+    "esModuleInterop": true,
 
 
     /* Bundler mode */
@@ -25,5 +26,6 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src"],
-  // "references": [{ "path": "./tsconfig.node.json" }]
+  "references": [{ "path": "./tsconfig.node.json" }],
+
 }

@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="px-4 lg:px-[80px]">
+      <div className="px-4 lg:px-[120px]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/board" element={<Board />} />
