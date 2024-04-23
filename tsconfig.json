@@ -7,7 +7,8 @@
     "skipLibCheck": true,
     "allowJs": true,
     "moduleDetection": "force",
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports":true,
+
 
     /* Bundler mode */
     "moduleResolution": "bundler",
