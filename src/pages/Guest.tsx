@@ -1,7 +1,8 @@
 import React from "react";
+import MainLayout from "../components/layout/MainLayout";
 
 const Guest = () => {
-  return <div>Guest</div>;
+  return <MainLayout>Guest</MainLayout>;
 };
 
 export default Guest;

@@ -1,5 +1,7 @@
+import MainLayout from "../components/layout/MainLayout";
+
 const Board = () => {
-  return <div>Board</div>;
+  return <MainLayout>Board</MainLayout>;
 };
 
 export default Board;
